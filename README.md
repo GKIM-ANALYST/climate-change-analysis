@@ -28,13 +28,13 @@ This platform transforms complex climate data into clear, actionable intelligenc
 - **Trend Projections** with statistical confidence intervals
 - **Policy Impact Simulation** scenarios
 
-### 💡 Actionable Intelligence
+### Actionable Intelligence
 - **Investment Priority Matrix** for green energy opportunities
 - **Policy Recommendation Engine** based on performance gaps
 - **Climate Performance Benchmarking** against global standards
 - **Early Warning System** for high-risk regions
 
-## 🏗️ Project Architecture
+## Project Architecture
 climate-change-analysis/
 ├── 📁 config/
 │ └── settings.py # Configuration & API endpoints
