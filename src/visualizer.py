@@ -1,6 +1,6 @@
 """
 Climate Change Visualizer
-Professional visualizations for climate data analysis and policy communication
+visualizations for climate data analysis and policy communication
 """
 
 import matplotlib.pyplot as plt
