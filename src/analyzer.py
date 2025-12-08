@@ -83,8 +83,8 @@ class ClimateAnalyzer:
         results['decadal_analysis'] = decade_analysis
 
         # Critical thresholds analysis
-        current_anomaly = temp_df[temp_df['year'] == 2025]['temperature_anomaly'].iloc[0] if len(
-            temp_df[temp_df['year'] == 2025]) > 0 else 1.2
+        current_anomaly = temp_df[temp_df['year'] == 2023]['temperature_anomaly'].iloc[0] if len(
+            temp_df[temp_df['year'] == 2023]) > 0 else 1.2
         results['current_warming'] = current_anomaly
         results['paris_gap'] = max(0, current_anomaly - 1.5)  # Gap from Paris Agreement
 
